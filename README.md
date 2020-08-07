@@ -12,6 +12,8 @@ In particular, it contains tools for the construction and analysis of semantic n
 
 This code is tested on Python 3.7, but may work in other versions of Python 3.
 
+In order to do spell-checking via [``pyenchant``](https://pypi.org/project/pyenchant/), it will be necessary on non-Windows platforms to install the underlying "enchant" library, e.g. via Homebrew on Mac OS.
+
 A few Python packages are not strictly necessary for things to work, but may be useful:
 
 - [``dionysus``](https://github.com/mrzv/dionysus), a persistent homology package. This is not the package we generally use for calculating the persistent homology of growing semantic networks (which is [``ripser.py``](https://ripser.scikit-tda.org/)), but it may be useful in conjunction with:
