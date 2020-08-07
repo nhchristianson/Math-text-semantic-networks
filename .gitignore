@@ -1,0 +1,18 @@
+# OSX
+.DS_Store
+
+# Python
+lib/__pycache__/
+
+# Jupyter notebook
+.config/
+.ipynb_checkpoints
+.jupyter/
+.cache/
+.ipython/
+.local/
+
+# Other
+*.html
+
+
